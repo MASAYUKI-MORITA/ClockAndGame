@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>CarryIt</title>
+        <link rel="stylesheet" href="../clock/common.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <canvas id="soko" width="800" height="440"></canvas>
+        <table>
+            <tr>
+                <td></td><td><button onclick="u();" style="background-color: red;">U</button></td><td></td>
+            </tr>
+            <tr>
+                <td><button onclick="l();" style="background-color: yellow;">L</button></td><td></td><td><button onclick="r();" style="background-color: blue;">R</button></td>
+            </tr>
+            <tr>
+                <td></td><td><button onclick="d();" style="background-color: green;">D</button></td><td></td>
+            </tr>
+        </table>
+        <img id="imgWall" src="imgWall.png" style="display: none;">
+        <img id="imgGoal" src="imgGoal.png" style="display: none;">
+        <img id="imgWorker" src="imgWorker.png" style="display: none;">
+        <img id="imgLuggage" src="imgLuggage.png" style="display: none;">
+
+        <p><a href="../index.html">戻る</a></p>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
